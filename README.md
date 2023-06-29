@@ -25,8 +25,8 @@ cd fibonacci_api
 3. Create and activate a virtual environment.
 
 ```bash
-python3 -m venv fib_api_env
-source fib_api_env/bin/activate  # On Windows, use `fib_api_env\Scripts\activate`
+python -m venv fib_api_env
+source fib_api_env/bin/activate  # On Windows, use `activate while being in the project folder`
 ```
 
 4. Install the requirements.
