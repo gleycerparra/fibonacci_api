@@ -53,8 +53,4 @@ The Fibonacci sequence is implemented using a simple recursive function. The bas
 
 ## Future Optimizations
 
-This Fibonacci function is not optimized for large inputs because it uses a simple recursive implementation. This leads to a lot of repeated computation when calculating larger Fibonacci numbers. In future versions, this could be improved by implementing memoization or an iterative solution.
-
----
-
-Feel free to modify this README as necessary to fit the specifics of your project. Remember, a good README should provide all the necessary information someone would need to understand your project and get it running on their own system.
+This Fibonacci function is not optimized for large inputs because it uses a simple recursive implementation. This leads to a lot of repeated computation when calculating larger Fibonacci numbers. In future versions, this could be improved by implementing cache, memoization or a iterative solution for example.
