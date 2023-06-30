@@ -54,3 +54,9 @@ The Fibonacci sequence is implemented using a simple recursive function. The bas
 ## Future Optimizations
 
 This Fibonacci function is not optimized for large inputs because it uses a simple recursive implementation. This leads to a lot of repeated computation when calculating larger Fibonacci numbers. In future versions, this could be improved by implementing cache, memoization or a iterative solution for example.
+
+## Security Considerations
+
+While this is a simple Fibonacci number generator API, FastAPI automatically validates that the input to the /fibonacci/{n} endpoint is a non-negative integer and will return a 422 Unprocessable Entity error for invalid inputs, which helps prevent potential issues with input validation.
+
+Currently, the API does not handle sensitive data and does not require user authentication, but if these needs change in future versions, additional security measures such as HTTPS and secure authentication and authorization mechanisms will be necessary.
